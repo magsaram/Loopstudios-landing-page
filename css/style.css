@@ -184,7 +184,7 @@ section h3 {
 section {
   margin-bottom: 34px;
 }
-.creation a {
+.creation > a {
   display: block;
   width: 157px;
   height: 40px;
@@ -232,6 +232,222 @@ footer img {
   margin: 16px;
 }
 .frontendmentor {
+  width: 100%;
+  background-color: black;
   font-size: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.frontendmentor a {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 1024px) {
+  header {
+    margin-bottom: 160px;
+    background-image: url(../images/desktop/image-hero.jpg);
+  }
+  .hamburger {
+    display: none;
+  }
+  .menudesktop {
+    display: block;
+  }
+  .menudesktop a {
+    font-size: 15px;
+    margin-left: 32px;
+    text-decoration: none;
+    color: white;
+  }
+  nav {
+    top: 64px;
+    left: 10%;
+    right: 10%;
+  }
+  .logo {
+    width: 192px;
+    height: 32px;
+  }
+  h1 {
+    position: absolute;
+    top: 226px;
+    left: 10%;
+    right: 40%;
+    bottom: 146px;
+    font-size: 72px;
+    line-height: 70px;
+    padding: 40px;
+  }
+  main {
+    width: 80%;
+  }
+  .leader {
+    position: relative;
+    margin-bottom: 184px;
+  }
+  .leader img {
+    margin-bottom: 32px;
+    width: 60%;
+  }
+  .leader-text {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 96px 0 0 96px;
+    width: 550px;
+    height: 317px;
+    bottom: 30px;
+    right: 0;
+    background-color: white;
+  }
+  .leader-text h2 {
+    margin-bottom: 25px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+  }
+  .leader-text p {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .creation > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .creation section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-between;
+  }
+  .creation > div > a:first-of-type {
+    display: block;
+    width: 157px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+  }
+  .creation h2 {
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-family: var(--josefin);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+  }
+  section div {
+    position: relative;
+    width: 256px;
+    height: 450px;
+    background-size: contain;
+  }
+  section div:nth-child(1) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-deep-earth.jpg);
+  }
+  section div:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-night-arcade.jpg);
+  }
+  section div:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-soccer-team.jpg);
+  }
+  section div:nth-child(4) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-grid.jpg);
+  }
+  section div:nth-child(5) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-from-above.jpg);
+  }
+  section div:nth-child(6) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-pocket-borealis.jpg);
+  }
+  section div:nth-child(7) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-curiosity.jpg);
+  }
+  section div:nth-child(8) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      url(../images/desktop/image-fisheye.jpg);
+  }
+  section {
+    margin-bottom: 164px;
+  }
+  .creation > a {
+    display: none;
+  }
+  footer {
+    padding-top: 44px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer img {
+    margin: 0 0 24px;
+  }
+  .footer-logo > div:last-of-type {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 33px;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .social a {
+    text-align: right;
+    margin: 8px;
+  }
+  .social div:last-of-type {
+    font-size: 15px;
+    opacity: 0.5;
+    margin: 24px 0 0 0;
+  }
 }
